@@ -1,11 +1,26 @@
+:root {
+    --deep: rgb(71, 83, 122);
+    --light: 
+}
+
 header {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
+    background-color: var(--deep);
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 175%;
 }
 
 nav ul {
     text-align: end;
+    font-size: 125%;
 }
 
 nav li {
@@ -34,10 +49,23 @@ section h2 {
     padding: 10px 0px;
 }
 
+footer {
+    background-color: var(--deep);
+}
+
 .contact-links {
     line-height: 1.5;
 }
 
 .para {
     line-height: 1.2;
+}
+
+.blocks {
+    display: block;
+    margin: 80px;
+}
+
+.structure {
+    display: flex
 }
