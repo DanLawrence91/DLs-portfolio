@@ -1,0 +1,17 @@
+header {
+    width: 100%;
+}
+
+nav ul {
+    text-align: end;
+}
+
+nav li {
+    display: inline;
+    width: 100%;
+    padding: 10px;
+}
+
+img {
+    display: inline;
+}
