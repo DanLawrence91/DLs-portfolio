@@ -14,6 +14,16 @@ nav li {
     padding: 10px;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color:black;
+}
+
 img {
     display: inline;
 }
