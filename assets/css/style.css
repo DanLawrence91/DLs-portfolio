@@ -16,14 +16,28 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
 }
 
 nav a:visited {
     text-decoration: none;
-    color:black;
 }
 
 img {
     display: inline;
+}
+
+section {
+    padding: 10px 10px 0px 10px;
+}
+
+section h2 {
+    padding: 10px 0px;
+}
+
+.contact-links {
+    line-height: 1.5;
+}
+
+.para {
+    line-height: 1.2;
 }
