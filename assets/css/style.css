@@ -86,6 +86,7 @@ footer p {
 
 .contact-links {
     line-height: 1.5;
+    margin-left: 20px;
 }
 
 .para {
@@ -114,12 +115,30 @@ footer p {
     flex: 0 2 auto;
 }
 
+.order {
+    display: flex;
+    align-items: center;
+    
+}
+
 @media screen and (max-width:992px) {
     section {
         flex-direction: column;
     }
 
     header {
+        flex-direction: column;
+    }
+
+    .blocks {
+        margin: 30px;
+    }
+
+    .order :nth-child(1) {
+        order: 2;
+    }
+
+    .order {
         flex-direction: column;
     }
     
@@ -130,5 +149,12 @@ footer p {
         flex-direction: column;
         text-align: center;
     }
-    
+
+    .lists {
+        display: block;
+    }
+
+    .bullets {
+        list-style-type: square;
+    }
 }
