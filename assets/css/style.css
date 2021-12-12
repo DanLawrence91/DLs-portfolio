@@ -14,6 +14,9 @@ header {
     margin-bottom: 5px;
     background-color: var(--deep);
     color: var(--light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -28,6 +31,9 @@ nav ul {
     text-align: end;
     font-size: 125%;
     color: var(--light);
+    min-width: 400px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .lists {
@@ -38,6 +44,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    color: var(--light);
 }
 
 nav a:visited {
@@ -61,6 +68,17 @@ section h2 {
 
 footer {
     background-color: var(--deep);
+    color: var(--light);
+    height: 75px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    padding: 5px;
 }
 
 .contact-links {
@@ -84,6 +102,7 @@ footer {
 
 .resume {
     list-style-type: square;
+    line-height: 1.25;
 }
 
 .even {
