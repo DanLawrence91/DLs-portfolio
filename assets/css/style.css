@@ -30,7 +30,7 @@ nav ul {
     color: var(--light);
 }
 
-nav li {
+.lists {
     display: inline;
     width: 100%;
     padding: 10px;
@@ -79,4 +79,17 @@ footer {
 .structure {
     display: flex;
     align-items: center;
+    margin-top: 10px;
+}
+
+.resume {
+    list-style-type: square;
+}
+
+.even {
+    justify-content: space-between;
+}
+
+#adelaide {
+    opacity: 0.7;
 }
