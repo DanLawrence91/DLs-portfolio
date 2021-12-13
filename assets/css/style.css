@@ -123,6 +123,12 @@ footer p {
     
 }
 
+.all-projects {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
 /* media queries added to page to make more responsive depending on what screen viewed on. Set for two differing screen sizes */
 @media screen and (max-width:992px) {
     section {
