@@ -1,3 +1,4 @@
+/* base colours added as root variable to make easier in rest of document */
 :root {
     --deep: rgb(71, 83, 122);
     --light: rgb(247, 247, 231);
@@ -7,6 +8,8 @@ body {
     background-color: var(--light);
     color: var(--deep);
 }
+
+/* flexbox added to header to make responsive as screen size decreases - this links to media query below */
 
 header {
     width: 100%;
@@ -27,6 +30,8 @@ h2 {
     font-size: 175%;
 }
 
+/* flex added to nav bar to adjust as screen decreases in size - links to media query to move to a column when screen changes size */
+
 nav ul {
     text-align: end;
     font-size: 125%;
@@ -36,6 +41,7 @@ nav ul {
     flex-wrap: nowrap;
 }
 
+/* set lists in line on nave bar rather than block to improve design */
 .lists {
     display: inline;
     width: 100%;
@@ -56,9 +62,9 @@ img {
     display: inline;
     padding-left: 70px;
     max-height: 250px;
-    flex: 0 1 auto;
 }
 
+/* flex added to main sections to make responsive as screen size amended */
 section {
     padding: 10px 10px 0px 10px;
     display: flex;
@@ -121,6 +127,7 @@ footer p {
     
 }
 
+/* media queries added to page to make more responsive depending on what screen viewed on. Set for two differing screen sizes */
 @media screen and (max-width:992px) {
     section {
         flex-direction: column;
