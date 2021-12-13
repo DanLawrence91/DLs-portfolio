@@ -44,7 +44,8 @@ nav ul {
 /* set lists in line on nave bar rather than block to improve design */
 .lists {
     display: inline;
-    width: 100%;
+    line-height: 1.5;
+    margin-left: 20px;
     padding: 10px;
 }
 
@@ -66,7 +67,7 @@ img {
 
 /* flex added to main sections to make responsive as screen size amended */
 section {
-    padding: 10px 10px 0px 10px;
+    padding: 5px 10px 0px 10px;
     display: flex;
     align-items: center;
 }
@@ -90,18 +91,13 @@ footer p {
     padding: 5px;
 }
 
-.contact-links {
-    line-height: 1.5;
-    margin-left: 20px;
-}
-
 .para {
     line-height: 1.2;
 }
 
 .blocks {
     display: block;
-    margin: 80px;
+    margin: 50px;
 }
 
 .resume {
@@ -112,7 +108,7 @@ footer p {
 }
 
 .even {
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #adelaide {
@@ -147,6 +143,10 @@ footer p {
 
     .order {
         flex-direction: column;
+    }
+
+    .contact-links {
+        display: block;
     }
     
 }
