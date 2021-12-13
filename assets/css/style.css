@@ -72,7 +72,6 @@ img {
 section {
     padding: 5px 10px 0px 10px;
     display: flex;
-    align-items: center;
 }
 
 section h2 {
@@ -103,6 +102,7 @@ article {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    align-items: center;
 }
 
 .para {
@@ -145,27 +145,16 @@ article {
     text-align: left;
 }
 
-#adelaide {
-    opacity: 0.7;
-    margin: 10px;
-    flex: 0 2 auto;
-}
-
 .order {
     display: flex;
     align-items: center;
     
 }
 
-.all-projects {
-    display: flex;
-    flex-flow: column wrap;
-    text-align: center;
-}
-
 .other-projects {
     display: flex;
     flex-direction: row;
+    justify-content: start;
 }
 
 li a {
@@ -180,6 +169,12 @@ li a:hover {
     color: var(--title);
 }
 
+.contact-links {
+    display: inline;
+    line-height: 1.2;
+    padding: 10px
+}
+
 /* media queries added to page to make more responsive depending on what screen viewed on. Set for two differing screen sizes */
 @media screen and (max-width:992px) {
     section {
@@ -191,7 +186,8 @@ li a:hover {
     }
 
     .blocks {
-        margin: 30px;
+        margin: 30px 30px 30px 70px;
+        list-style-type: square;
     }
 
     .order :nth-child(1) {
@@ -204,6 +200,8 @@ li a:hover {
 
     .contact-links {
         display: block;
+        line-height: 1.2;
+        padding: 10px
     }
     
 }
@@ -218,7 +216,9 @@ li a:hover {
         display: block;
     }
 
-    .bullets {
-        list-style-type: square;
+    .contact-links {
+        display: block;
+        line-height: 1.2;
+        padding: 10px
     }
 }
