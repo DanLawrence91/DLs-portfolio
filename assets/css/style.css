@@ -109,8 +109,7 @@ footer {
 
 .order {
     display: flex;
-    align-items: center;
-    
+    flex-wrap: wrap;
 }
 
 /* Linear gradient added to main text sections to give them a better look */
@@ -150,6 +149,10 @@ footer {
 
 .contact-links {
     display: inline;
+}
+
+input {
+    margin: 10px;
 }
 
 #headshot {
