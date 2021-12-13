@@ -64,8 +64,6 @@ nav a:visited {
 
 img {
     display: inline;
-    padding-left: 70px;
-    max-height: 250px;
 }
 
 /* flex added to main sections to make responsive as screen size amended */
@@ -125,10 +123,6 @@ article {
     margin-left: 80px;
 }
 
-.text-center {
-    margin: 0 auto;
-}
-
 .even {
     width:100%;
     display: flex;
@@ -154,7 +148,8 @@ article {
 .other-projects {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    padding-left: 30px;
+    justify-content: space-between;
 }
 
 li a {
@@ -173,6 +168,15 @@ li a:hover {
     display: inline;
     line-height: 1.2;
     padding: 10px
+}
+
+#figure-center {
+    text-align:center;
+    display: inline-block;
+}
+
+#headshot {
+    padding-left: 50px;
 }
 
 /* media queries added to page to make more responsive depending on what screen viewed on. Set for two differing screen sizes */
