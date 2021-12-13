@@ -25,7 +25,7 @@ This second screenshot shows shadowing provided to the links to different projec
 
 ![Screenshot of portfolio and shadowing](./assets/images/README2.png)
 
-A link is supplied to the [deployed project](https://danlawrence91.github.io/DLs-portfolio/)
+A link is supplied to the [deployed project.](https://danlawrence91.github.io/DLs-portfolio/)
 
 ## Future features
 
