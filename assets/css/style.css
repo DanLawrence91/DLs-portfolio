@@ -137,6 +137,7 @@ footer {
 
 .other-projects {
     display: flex;
+    align-items: flex-end;
 }
 
 .other-projects img {
