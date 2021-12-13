@@ -13,7 +13,6 @@ body {
 }
 
 header {
-    width: 100%;
     padding: 10px;
     margin-bottom: 5px;
     background-color: var(--title);
@@ -36,17 +35,14 @@ h2 {
 
 /* flex added to nav bar to adjust as screen decreases in size - links to media query to move to a column when screen changes size */
 nav ul {
-    text-align: end;
     font-size: 125%;
     color: var(--light);
-    min-width: 400px;
     display: flex;
     flex-wrap: nowrap;
 }
 
 nav a {
     text-decoration: none;
-    color: var(--light);
 }
 
 /* nav links will change remain the same color and text decoration when visited */
@@ -84,7 +80,6 @@ footer {
     background-color: var(--title);
     color: var(--light);
     height: 75px;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +88,6 @@ footer {
 
 /* set lists inline on nav bar rather than block to improve design */
 .lists {
-    display: inline;
     line-height: 1.5;
     margin-left: 20px;
     padding: 10px;
@@ -121,7 +115,6 @@ footer {
 
 /* Linear gradient added to main text sections to give them a better look */
 .blocks {
-    display: block;
     margin: 20px;
     background-image: linear-gradient(
         var(--deep) 0%,
@@ -144,17 +137,14 @@ footer {
 
 .other-projects {
     display: flex;
-    justify-content: space-around;
 }
 
 .other-projects img {
     text-align:center;
 }
 
-.cv {
+.resume {
     list-style-type: square;
-    padding: 10px;
-    margin-left: 80px;
 }
 
 .contact-links {
@@ -168,11 +158,11 @@ footer {
 
 /* media queries added to page to make more responsive depending on what screen viewed on. Set for two differing screen sizes */
 @media screen and (max-width:992px) {
-    section {
+    header {
         flex-direction: column;
     }
-
-    header {
+    
+    section {
         flex-direction: column;
     }
 
@@ -188,6 +178,7 @@ footer {
         margin: 30px 30px 30px 70px;
         list-style-type: square;
     }
+
     .contact-links {
         display: block;
         padding: 10px
@@ -196,7 +187,6 @@ footer {
     #headshot {
         width: 50%;
     }
-    
 }
 
 @media screen and (max-width:768px) {
