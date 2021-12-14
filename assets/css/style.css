@@ -109,7 +109,7 @@ footer {
 
 .order {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 /* Linear gradient added to main text sections to give them a better look */
@@ -153,6 +153,34 @@ footer {
 
 input {
     margin: 10px;
+}
+
+form p {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+.container {
+    position: relative;
+    height: 30px;
+}
+
+.button-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 #headshot {
