@@ -110,6 +110,7 @@ footer {
     line-height: 1.5;
     margin-left: 20px;
     padding: 10px;
+    list-style-type: none;
 }
 
 .main-1 {
@@ -138,9 +139,9 @@ footer {
         var(--deep) 0%,
         var(--title) 100%);
     color: var(--light);
-    padding: 20px;
+    padding: 15px;
     box-shadow: 10px 10px 5px var(--title);
-    line-height: 1.2;
+    line-height: 1;
 }
 
 .figure-center {
@@ -237,5 +238,6 @@ footer {
 
     .lists {
         display: block;
+        list-style-type: none;
     }
 }
