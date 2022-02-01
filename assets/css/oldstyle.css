@@ -1,0 +1,243 @@
+/* CSS ordered by selector first and then in order of how appears on page after that, media queries are at the bottom */
+
+/* base colours added as root variable to make easier in rest of document */
+:root {
+    --deep: #5d73b4;
+    --light: #F7F7E7;
+    --title: #212c3d;
+}
+
+body {
+    background-color: var(--light);
+    color: var(--title);
+}
+
+header {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: var(--title);
+    color: var(--light);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 175%;
+    text-decoration: underline;
+    padding: 10px 0px;
+}
+
+/* flex added to nav bar to adjust as screen decreases in size - links to media query to move to a column when screen changes size */
+nav ul {
+    font-size: 125%;
+    color: var(--light);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* nav links will change remain the same color and text decoration when visited */
+nav a:visited {
+    text-decoration: none;
+    color: var(--light);
+}
+
+li a {
+    color: var(--light);
+}
+
+/*changes how links appear on page after visiting and when hovered on respectively */
+li a:visited {
+    color: var(--light);
+}
+
+li a:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* flex added to main sections to make responsive as screen size amended */
+section {
+    padding: 5px 10px 0px 10px;
+    display: flex;
+}
+
+figcaption {
+    padding: 20px;
+    font-size: 125%;
+}
+
+input {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form p {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 400px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+footer {
+    background-color: var(--title);
+    color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* set lists inline on nav bar rather than block to improve design */
+.lists {
+    line-height: 1.5;
+    margin-left: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.main-1 {
+    border-bottom: 4px solid var(--title);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.main-1 ul li {
+    text-align: left;
+    margin-left: 30px;
+    padding-right: 20px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+}
+
+/* Linear gradient added to main text sections to give them a better look */
+.blocks {
+    margin: 20px;
+    background-image: linear-gradient(
+        var(--deep) 0%,
+        var(--title) 100%);
+    color: var(--light);
+    padding: 15px;
+    box-shadow: 10px 10px 5px var(--title);
+    line-height: 1;
+}
+
+.figure-center {
+    text-align:center;
+    display: inline-block;
+}
+
+/* Shadowing given to image links when hovered over to indicate which selected */
+.figure-center img:hover {
+    box-shadow: var(--title) 0px 0px 20px 15px;
+}
+
+.other-projects {
+    display: flex;
+    align-items: flex-end;
+}
+
+.other-projects img {
+    text-align:center;
+}
+
+.resume {
+    list-style-type: square;
+}
+
+.contact-links {
+    display: inline;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-center {
+    width: 20%;
+}
+
+#headshot {
+    padding-left: 50px;
+    width: 33%;
+}
+
+/* #download {
+    display: inline;
+} */
+
+/* media queries added to page to make more responsive depending on what screen viewed on. Set for two differing screen sizes */
+@media screen and (max-width:992px) {
+    header {
+        flex-direction: column;
+    }
+    
+    section {
+        flex-direction: column;
+    }
+
+    .order :nth-child(1) {
+        order: 2;
+    }
+
+    .order {
+        flex-direction: column;
+    }
+    
+    .blocks {
+        margin: 30px 30px 30px 70px;
+        list-style-type: square;
+    }
+
+    .contact-links {
+        display: block;
+        padding: 10px
+    }
+
+    #headshot {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .lists {
+        display: block;
+        list-style-type: none;
+    }
+}

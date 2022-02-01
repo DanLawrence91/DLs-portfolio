@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/oldstyle.css">
+    <title>Dan's Portfolio Page</title>
+</head>
+
+<body>
+    <header>
+        <!-- Nav list set in header to link to other elements on the page, will change layout once page reaches certain size -->
+        <nav>
+            <ul>
+                <li class="lists"><a href="#about">About</a></li>
+                <li class="lists"><a href="#projects">Projects</a></li>
+                <li class="lists"><a href="#career">Resume</a></li>
+                <li class="lists"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Dan Lawrence Portfolio!</h1>
+
+        <div>
+
+            <section class="main-1">
+                <!-- Image and about me section. Again layout changes as screen size does. Images moves from left to below writing -->
+
+                <h2 id="about">About</h2>
+
+                <div class="order">
+
+                    <img id="headshot" src="assets/images/Portfolio picture.jpg" alt="Headshot of myself for this Portfolio">
+                    
+                    <div class="blocks">
+                        <p>Hi! I am Dan, a full-stack web developer, currently living in Adelaide.</p>
+                        <br>
+                        <p>I have had a variety of experiences in my career, which along with my enjoyment of problem-solving and curious nature, have provided me with a number of skills that I find essential to being a success in full-stack web development.</p>
+                        <br>
+                        <p>Working in sales has given me a good grounding in communicating well with others, as well as negotiation and working to tight deadlines. My time working in customer service has helped me understand how end users think and want to interact with websites.</p>
+                        <br>
+                        <p>Outside of coding I love sports and exploring new countries with my partner. Having travelled a lot throughout the northern hemisphere, I am now incredibly excited to see what the southern hemisphere has to offer.</p>
+                        <br>
+                        <p>Please take a look at projects I have worked on and my career to date. I can be contacted using the information at the bottom of the page.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-1">
+
+                <!-- Projects section. Main project is larger than others and all contain links to the deployed page. Will be updated as better projects become available -->
+
+                <h2 id="projects">Projects</h2>
+                <p>Please click on each image to be taken to the deployed project</p>
+
+                <article>
+                        <figure class="figure-center">
+                            <figcaption>Team Project using APIs to pick a destination, find the weather and see it on a map</figcaption>
+                            <a href="https://seo-web.github.io/TeamRepo/" target="_blank"> <!-- Need to add link to project repo here -->
+                            <img width="50%" src="assets/images/Project-1.png" alt="Image from team project">
+                            </a>
+                            <p>Please follow this <a href="https://github.com/SEO-Web/TeamRepo" target="_blank">link</a> to the Github repo</p>
+                        </figure>
+                </article>
+
+                <article class="other-projects">
+                        <figure class="figure-center">
+                            <figcaption>Weather Dashboard created using API data</figcaption>
+                            <a href="https://danlawrence91.github.io/weather-dashboard/" target="_blank">
+                                <img width="90%" src="assets/images/Project-2.png" alt="Image from weather dashboard created">
+                            </a>
+                            <p>Please follow this <a href="https://github.com/DanLawrence91/weather-dashboard" target="_blank">link</a> to the Github repo</p>
+                        </figure>
+                        <figure class="figure-center">
+                            <figcaption>Day Planner</figcaption>
+                            <a href="https://danlawrence91.github.io/day-planner/" target="_blank">
+                                <img width="90%" src="assets/images/Project-3.png" alt="Image of day planner">
+                            </a>
+                            <p>Please follow this <a href="https://github.com/DanLawrence91/day-planner" target="_blank">link</a> to the Github repo</p>
+                        </figure>
+                        <figure class="figure-center">
+                            <figcaption>Coding Quiz</figcaption>
+                            <a href="https://danlawrence91.github.io/Coding--Quiz/" target="_blank">
+                                <img width="90%" src="assets/images/Project-4.png" alt="Image of coding quiz created">
+                            </a>
+                            <p>Please follow this <a href="https://github.com/DanLawrence91/Coding--Quiz" target="_blank">link</a> to the Github repo</p>
+                        </figure>
+                </article>
+
+            </section>
+
+            <section class="main-1">
+
+                <h2 id="career">Resume</h2>
+
+                <div id="download">
+                    <p>Please <a href="assets/File/Dan Lawrence Web Dev CV.pages" download="resume">click here</a> to download a copy of my up to date resume</p>
+                </div>
+
+                <ul class="resume blocks">
+                    <li>Full Stack Coding Bootcamp - University of Adelaide - November 2021 to May 2022</li>
+                    <li>Underwriter - NFU Mutual - January 2020 to September 2021</li>
+                    <li>Sales Manager - Loyalty Works - January 2019 to November 2019</li>
+                    <li>General Sports InPlay Trader - William Hill - November 2017 to January 2019</li>
+                    <li>Sales Account Manager - Technogym - September 2015 to August 2017</li>
+                    <li>Recruitment Consultant - Goodall Brazier - September 2013 to August 2015</li>
+                </ul>
+
+            </section>
+
+            <section class="main-1">
+
+                <h2 id="contact">Contact</h2>
+                <!-- Contact section with links to my different contact methods, along with input boxes below where users of page can submit their details -->
+
+                <ul class="blocks">
+                    <li class="contact-links"><em>Email:</em> <a href="mailto:dan.lawrence0810@gmail.com" target="_blank">dan.lawrence0810@gmail.com</a></li>
+                    <li class="contact-links"><em>Mobile:</em> +61 (0) 450682186</li>
+                    <li class="contact-links"><a href="https://www.linkedin.com/in/daniel-lawrence-79137117a/" target=_blank><em>LinkedIn</em></a></li>
+                    <li class="contact-links"><a href="https://github.com/DanLawrence91" target="_blank"><em>Github</em></a></li>
+                    <li class="contact-links"><a href="https://twitter.com/DanLawrence1991" target="_blank"><em>Twitter</em></a></li>
+                </ul>
+                
+
+               <!-- plaeholder text used for action on form as have not done server side work yet--> 
+               <form action="..">
+                    <p>My contact details are above, likewise please feel free to enter your details and a brief message below and I will get in touch with you.</p>
+                    <div class="forms">
+                        <label for="name">
+                            Name: <input id="name" type="text" name="name" placeholder="Enter name">
+                        </label>
+                        <label for="email">
+                            Email: <input id="email" type="text" name="email" placeholder="Enter email">
+                        </label>
+                        <label for="phone">
+                            Mobile: <input id="phone" type="tel" name="phone" placeholder="Enter mobile">
+                        </label>
+                    </div>
+                    <div class="textarea">
+                        <label for="message">
+                            <textarea id="message" type="text" name="message" placeholder="Enter your message here"></textarea>
+                        </label>
+                        <button class="button-center" type="submit">Submit</button>
+                    </div>
+                    
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>Thank you for visiting my portfolio page, I hope to hear from you soon!</p>
+        <br>
+        <p>2022 DL Website Productions</p>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
