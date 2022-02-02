@@ -62,18 +62,12 @@ footer {
     color: var(--white);
 }
 
-
-
-
-
-
-
 #about {
     color: var(--oxford);
     background-color: var(--grey);
 }
 
-#download {
+#cv {
     color: var(--white);
     text-decoration: underline;
     font-weight: bold;
