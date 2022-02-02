@@ -15,15 +15,19 @@ There will be a link to each project highlighted which will then open in a new t
 
 ## Portfolio and functionality
 
-I have included some screenshots to show how the portfolio looks when opened and some of the functionality that has been added via CSS.
+This protfolio has been put together using a combination of HTML, Bootstrap and custom CSS.
 
-The fist shows the inital view and how the link hovered on the navigation bar changes in comparison to the others:
+The fist screenshot shows the inital view of the page with header that is fixed:
 
 ![Screenshot of portfolio and nav bar styling](./assets/images/README1.png)
 
-This second screenshot shows shadowing provided to the links to different projects that have been worked on to indicate which is going to be selected:
+This second screenshot shows how the projects are displayed:
 
-![Screenshot of portfolio and shadowing](./assets/images/README2.png)
+![Screenshot of portfolio projects](./assets/images/README2.png)
+
+This final screenshot shows resume and contact section with links to contact or download the resume:
+
+![Screenshot of bottom of page](./assets/images/README3.png)
 
 A link is supplied to the [deployed project.](https://danlawrence91.github.io/DLs-portfolio/)
 
