@@ -1,0 +1,44 @@
+:root {
+    --black: #231F20;
+    --beige: #F6F1D1;
+    --blue: #40798C;
+    --green: #70A9A1;
+    --grey: #CFD7C7;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--beige);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--green);
+}
+
+footer {
+    background-color: var(--blue);
+}
+
+.custom-nav {
+    background-color: var(--black);
+}
+
+#about {
+    color: var(--black);
+    background-color: var(--grey);
+}
+
+#download {
+    color: var(--beige);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#connect {
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: bold;
+}
