@@ -21,6 +21,14 @@ h4 {
     color: var(--green);
 }
 
+a {
+    color: var(--white);
+}
+
+a :visited {
+    color: var(--white);
+}
+
 footer {
     background-color: var(--blue);
 }
@@ -53,6 +61,12 @@ footer {
 .custom-btn:visited {
     color: var(--white);
 }
+
+
+
+
+
+
 
 #about {
     color: var(--oxford);
