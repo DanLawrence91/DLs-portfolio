@@ -34,17 +34,18 @@ footer {
 }
 
 .custom-nav {
-    background-color: var(--oxford);
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .custom-navbar {
-    color: var(--grey);
+    color: var(--white);
     padding: 4px;
     font-size: 24px;
 }
 
 .custom-navbar:visited {
-    color: var(--grey);
+    color: var(--white);
 }
 
 .custom-card {background-color: var(--white);}
