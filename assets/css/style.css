@@ -1,17 +1,20 @@
 :root {
-    --black: #231F20;
-    --beige: #F6F1D1;
+    --oxford: #0E1C36;
+    --white: #F9FBF2;
     --blue: #40798C;
     --green: #70A9A1;
     --grey: #CFD7C7;
 }
 
 body {
-    background-color: var(--black);
-    color: var(--beige);
+    background-color: var(--oxford);
+    color: var(--white);
 }
 
-h1,
+h1 {
+    color: var(--blue);
+}
+
 h2,
 h3,
 h4 {
@@ -23,16 +26,41 @@ footer {
 }
 
 .custom-nav {
-    background-color: var(--black);
+    background-color: var(--oxford);
+}
+
+.custom-navbar {
+    color: var(--grey);
+    padding: 4px;
+    font-size: 24px;
+}
+
+.custom-navbar:visited {
+    color: var(--grey);
+}
+
+.custom-card {background-color: var(--white);}
+
+.custom-card p {
+    color: var(--blue);
+}
+
+.custom-btn {
+    background-color: var(--oxford);
+    color: var(--white);
+}
+
+.custom-btn:visited {
+    color: var(--white);
 }
 
 #about {
-    color: var(--black);
+    color: var(--oxford);
     background-color: var(--grey);
 }
 
 #download {
-    color: var(--beige);
+    color: var(--white);
     text-decoration: underline;
     font-weight: bold;
 }
