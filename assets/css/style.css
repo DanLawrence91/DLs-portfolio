@@ -1,81 +1,79 @@
 :root {
-    --oxford: #0E1C36;
-    --white: #F9FBF2;
-    --blue: #40798C;
-    --green: #70A9A1;
-    --grey: #CFD7C7;
+  --oxford: #0e1c36;
+  --white: #f9fbf2;
+  --blue: #40798c;
+  --green: #70a9a1;
+  --grey: #cfd7c7;
 }
 
 body {
-    background-color: var(--oxford);
-    color: var(--white);
+  background-color: var(--oxford);
+  color: var(--white);
 }
 
 h1 {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 h2,
 h3,
 h4 {
-    color: var(--green);
+  color: var(--green);
 }
 
 a {
-    color: var(--white);
+  color: var(--white);
 }
 
 a :visited {
-    color: var(--white);
-}
-
-footer {
-    background-color: var(--blue);
+  color: var(--white);
 }
 
 .custom-nav {
-    background-color: var(--blue);
-    color: var(--white);
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .custom-navbar {
-    color: var(--white);
-    padding: 4px;
-    font-size: 24px;
+  color: var(--white);
+  padding: 4px;
+  font-size: 24px;
 }
 
 .custom-navbar:visited {
-    color: var(--white);
+  color: var(--white);
 }
 
-.custom-card {background-color: var(--white);}
+.custom-card {
+  background-color: var(--white);
+}
 
 .custom-card p {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 .custom-btn {
-    background-color: var(--oxford);
-    color: var(--white);
+  background-color: var(--oxford);
+  color: var(--white);
 }
 
 .custom-btn:visited {
-    color: var(--white);
+  color: var(--white);
 }
 
 #about {
-    color: var(--oxford);
-    background-color: var(--grey);
+  color: var(--white);
+  background-color: var(--oxford);
 }
 
 #cv {
-    color: var(--white);
-    text-decoration: underline;
-    font-weight: bold;
+  color: var(--white);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 #connect {
-    color: var(--blue);
-    text-decoration: underline;
-    font-weight: bold;
+  color: var(--blue);
+  text-decoration: underline;
+  font-weight: bold;
 }
