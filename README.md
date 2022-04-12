@@ -29,6 +29,7 @@ A list of tecnologies used in this portfolio:
 - HTML
 - CSS
 - Bootstrap
+- JavaScript
 
 ## Links
 

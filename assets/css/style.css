@@ -81,3 +81,15 @@ a :visited {
 .hidden {
   display: none;
 }
+
+#menu-button {
+  border: none;
+  background: none;
+  color: var(--white);
+  font-size: 36px;
+}
+
+#nav-btns:hover {
+  background-color: var(--green);
+  border-radius: 10px;
+}
