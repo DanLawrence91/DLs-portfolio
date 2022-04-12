@@ -77,3 +77,7 @@ a :visited {
   text-decoration: underline;
   font-weight: bold;
 }
+
+.hidden {
+  display: none;
+}

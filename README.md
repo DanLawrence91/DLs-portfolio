@@ -8,7 +8,7 @@ I will constantly be updating this with my most recent work as it is completed.
 
 ## Portfolio and functionality
 
-This protfolio has been put together using a combination of HTML, Bootstrap and custom CSS.
+This portfolio has been put together using a combination of HTML, Bootstrap and custom CSS.
 
 The fist screenshot shows the inital view of the page with header that is fixed:
 
