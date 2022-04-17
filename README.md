@@ -18,10 +18,6 @@ This second screenshot shows how the projects are displayed:
 
 ![Screenshot of portfolio projects](./assets/images/README2.png)
 
-This final screenshot shows resume and contact section with links to contact or download the resume:
-
-![Screenshot of bottom of page](./assets/images/README3.png)
-
 ## Technologies
 
 A list of tecnologies used in this portfolio:
